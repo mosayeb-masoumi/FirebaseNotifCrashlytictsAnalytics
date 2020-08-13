@@ -3,6 +3,8 @@ package com.example.firebasenotifcrashlytictsanalytics;
 import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.content.Intent;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
@@ -20,10 +22,13 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @Override
     public void onMessageReceived(@NonNull RemoteMessage remoteMessage) {
 
+        Uri uri= RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+
         Notification notification = new NotificationCompat.Builder(this)
                 .setContentTitle(remoteMessage.getNotification().getTitle())
                 .setContentText(remoteMessage.getNotification().getBody())
                 .setSmallIcon(R.mipmap.ic_launcher)
+                .setSound(uri)
                 .build();
 
         NotificationManagerCompat manager = NotificationManagerCompat.from(getApplicationContext());
