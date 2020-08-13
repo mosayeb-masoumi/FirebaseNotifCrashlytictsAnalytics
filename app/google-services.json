@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "48344789441",
+    "firebase_url": "https://fir-fortest-4b7bb.firebaseio.com",
+    "project_id": "fir-fortest-4b7bb",
+    "storage_bucket": "fir-fortest-4b7bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48344789441:android:5301dd3f76821ddbb3bf40",
+        "android_client_info": {
+          "package_name": "com.example.firebasecrashlitics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48344789441-errlfj3cielb3fn0m94dijh5h3ao30c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZgCthRS8Y7foxl-n0PxD3ztqcnaB7ZsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48344789441-errlfj3cielb3fn0m94dijh5h3ao30c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48344789441:android:89478ac3fff5a968b3bf40",
+        "android_client_info": {
+          "package_name": "com.example.firebasefortest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48344789441-errlfj3cielb3fn0m94dijh5h3ao30c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZgCthRS8Y7foxl-n0PxD3ztqcnaB7ZsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48344789441-errlfj3cielb3fn0m94dijh5h3ao30c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48344789441:android:b0dae4f3481c1998b3bf40",
+        "android_client_info": {
+          "package_name": "com.example.firebasenotifcrashlytictsanalytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48344789441-errlfj3cielb3fn0m94dijh5h3ao30c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZgCthRS8Y7foxl-n0PxD3ztqcnaB7ZsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48344789441-errlfj3cielb3fn0m94dijh5h3ao30c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
